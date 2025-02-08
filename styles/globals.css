@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional styling */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8fafc;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #2563eb, #3b82f6);
+}
+
+nav a {
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #1e40af;
+}
+
+footer {
+    background: #1e3a8a;
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+}
